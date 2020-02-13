@@ -1,13 +1,13 @@
 public class Animal {
     private int age;
-    private int weight;
+    private double weightInKg;
 
     public Animal() {
     }
 
-    public Animal(int age, int weight) {
+    public Animal(int age, double weightInKg) {
         this.age = age;
-        this.weight = weight;
+        this.weightInKg = weightInKg;
     }
 
     public int getAge() {
@@ -18,12 +18,12 @@ public class Animal {
         this.age = age;
     }
 
-    public int getWeight() {
-        return weight;
+    public double getWeightInKg() {
+        return weightInKg;
     }
 
-    public void setWeight(int weight) {
-        this.weight = weight;
+    public void setWeightInKg(double weightInKg) {
+        this.weightInKg = weightInKg;
     }
 
     public void eat() {
