@@ -7,6 +7,14 @@ public class Application {
      * 心满意足之后就睡觉了。
      */
     public static void main(String[] args) {
-
+        Eagle anEagle = new Eagle(4, 5, 200, "rabbit");
+        System.out.println("I am an eagle");
+        System.out.println("I am " + anEagle.getAge() + " years old");
+        System.out.println("I weigh " + anEagle.getWeightInKg() + " kg");
+        System.out.println("I eat " + anEagle.getPrey()  );
+        anEagle.fly();
+        anEagle.hunt();
+        anEagle.eat();
+        anEagle.sleep();
     }
 }
