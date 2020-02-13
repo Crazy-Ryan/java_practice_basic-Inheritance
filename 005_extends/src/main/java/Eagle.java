@@ -4,8 +4,8 @@ public class Eagle extends Bird {
     public Eagle() {
     }
 
-    public Eagle(int age, int weight, double flyingSpeed, String prey) {
-        super(age, weight, flyingSpeed);
+    public Eagle(int age, double weightInKg, double flyingSpeed, String prey) {
+        super(age, weightInKg, flyingSpeed);
         this.prey = prey;
     }
 
