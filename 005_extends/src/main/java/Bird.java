@@ -4,8 +4,8 @@ public class Bird extends Animal {
     public Bird() {
     }
 
-    public Bird(int age, int weight, double flyingSpeed) {
-        super(age, weight);
+    public Bird(int age, double weightInKg, double flyingSpeed) {
+        super(age, weightInKg);
         this.flyingSpeed = flyingSpeed;
     }
 
